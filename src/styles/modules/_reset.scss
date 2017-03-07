@@ -1,0 +1,51 @@
+* {
+  border: 0;
+  border-style: solid;
+  border-width: 0;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  -webkit-tap-highlight-color: none;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div,
+section,
+nav {
+  position: relative;
+}
+
+[hidden] {
+  display: none;
+}

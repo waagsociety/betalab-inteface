@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Betalab - application</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="public/css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<main class="app">
+  <div class="col-2">
+    <nav class="menu">
+      <div class="logo">Omgevingsplanner</div>
+      <form class="search">
+        <input type="search" name="search" placeholder="Voer een adres in" />
+        <button type="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+    </nav>
+    <div class="viewer">
+      <!-- place viewer here -->
+    </div>
+  </div>
+
+  <div class="col-2">
+    <div class="main-content">
+      <div class="breadcrumb">
+        <ul>
+          <li class="done"><a href="#">Adres</a></li>
+          <li class="active"><a href="plan.html">Plan</a></li>
+          <li>Schets</li>
+          <li>Proces</li>
+          <li>Bewaren</li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1>Zoek op een locatie</h1>
+        <p>Voer een adres in of klik op een locatie om het omgevings plan van de locatie te bekijken.</p>
+        <form action="">
+          <ul class="radio-list">
+            <li><input id="wonen" type="radio" name="gender" value="male"> <label for="wonen">Wonen</label> <i class="fa fa-info-circle" aria-hidden="true"></i></li>
+            <li><input id="kangaroe" type="radio" name="gender" value="male"> <label for="kangaroe">Kangaroe woning</label> <i class="fa fa-info-circle" aria-hidden="true"></i></li>
+            <li><input id="beroep" type="radio" name="gender" value="male"> <label for="beroep">Beroep of bedrijf aan huis</label> <i class="fa fa-info-circle" aria-hidden="true"></i></li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script type="text/javascript" src="public/js/main.min.js"></script>
+</body>
+</html>

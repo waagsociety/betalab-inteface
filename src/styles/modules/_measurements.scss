@@ -1,0 +1,20 @@
+$radius: 6px;
+$gutter: 2.5em;
+
+@mixin breakpoint($point) {
+  @if $point == xl {
+    @media (min-width: 80.0625em) { @content; }
+  }
+  @else if $point == l {
+    @media (max-width: 80em) { @content; }
+  }
+  @else if $point == m {
+    @media (max-width: 63.75em) { @content; }
+  }
+  @else if $point == s {
+    @media (max-width: 48.125em) { @content; }
+  }
+  @else if $point == xs {
+    @media (max-width: 33.75em) { @content; }
+  }
+}

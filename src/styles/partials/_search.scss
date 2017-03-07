@@ -1,0 +1,28 @@
+.search {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  font-weight: 700;
+  height: 100%;
+  width: calc(100% - 9.5em);
+
+  input {
+    background: transparent;
+    color: #fff;
+    height: 100%;
+    letter-spacing: 0.1em;
+    padding: 0 ($gutter / 2);
+    width: calc(100% - 70px);
+  }
+
+  input::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  button {
+    background: #cc005b;
+    color: #fff;
+    font-size: 1.5em;
+    height: 70px;
+    width: 70px;
+  }
+}

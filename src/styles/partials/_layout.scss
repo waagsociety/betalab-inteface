@@ -1,0 +1,19 @@
+.container {
+  padding: $gutter * 2;
+
+  @include breakpoint(l) {
+    padding: $gutter;
+  }
+
+  @include breakpoint(m) {
+    padding: $gutter / 2;
+  }
+}
+
+.col-2 {
+  width: 50%;
+
+  @include breakpoint(m) {
+    width: 100%;
+  }
+}

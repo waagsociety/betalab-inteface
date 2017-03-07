@@ -1,0 +1,16 @@
+.menu {
+  align-items: center;
+  background: $brand-color;
+  color: #fff;
+  display: flex;
+  height: 70px;
+  width: 100%;
+}
+
+.logo {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0 ($gutter / 2);
+  text-transform: uppercase;
+}

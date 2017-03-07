@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Betalab - application</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="public/css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<main class="app">
+  <div class="col-2">
+    <nav class="menu">
+      <div class="logo">Omgevingsplanner</div>
+      <form class="search">
+        <input type="search" name="search" placeholder="Voer een adres in" />
+        <button type="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+    </nav>
+    <div class="viewer">
+      <!-- place viewer here -->
+    </div>
+  </div>
+
+  <div class="col-2">
+    <div class="main-content">
+      <div class="breadcrumb">
+        <ul>
+          <li class="done"><a href="#">Adres</a></li>
+          <li class="active"><a href="#">Plan</a></li>
+          <li>Schets</li>
+          <li>Proces</li>
+          <li>Bewaren</li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1>Monumenten & beschermde dorpsgezichten</h1>
+        <p><b>Op uw perceel is het volgende van toepassing:</b><br/>
+          <ul class="list">
+            <li>Uw woning is geen gemeentelijk- of rijksmonument</li>
+            <li>Uw woning bevindt  zich niet in een beschermd dorpsgezicht</li>
+          </ul>
+          U mag uw woning en andere gebouwen en bouwwerken op uw perceel slopen.</p>
+          <p>Om te slopen is een sloopmelding nodig.</p>
+        </p>
+      </div>
+
+      <nav class="page-nav">
+        <button class="previous"><i class="fa fa-caret-left" aria-hidden="true"></i> Vorige</button>
+        <button class="next">Volgende <i class="fa fa-caret-right" aria-hidden="true"></i></button>
+      </nav>
+    </div>
+  </div>
+</main>
+
+<script type="text/javascript" src="public/js/main.min.js"></script>
+</body>
+</html>
