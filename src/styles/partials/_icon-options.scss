@@ -1,0 +1,25 @@
+.icon-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icon-options li {
+  display: block;
+  max-width: 150px;
+  padding: ($gutter / 4 );
+
+  svg {
+    margin: 0 auto 0.5em;
+    max-width: 100%;
+  }
+
+  h2 {
+    color: #483838;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+  }
+}
+
+
